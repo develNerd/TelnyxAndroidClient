@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Telnyx Android</string>
+    <string name="welcome_ex">Welcome!</string>
+    <string name="login_with_credentials">Login With Credentials</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="connected">Client Connected</string>
+    <string name="not_connected">Connecting Client..</string>
+    <string name="enter_id_number">Enter number or receiver Id</string>
+    <string name="input_number_here">Input number here</string>
+    <string name="connected_make_call">Client Connected. Make a Call</string>
+    <string name="connected_pending_auth">Client Connected - Pending Authentication </string>
+    <string name="connected_authenticated">Client Connected - All Good</string>
+
+    <string name="incoming_call">Incoming Call</string>
+    <string name="calling">Calling</string>
+    <string name="call_canceled">Call Cancelled</string>
+    <string name="inactive">In Active</string>
+    <string name="call_accepted">Call Accepted - Ongoing</string>
+
+</resources>

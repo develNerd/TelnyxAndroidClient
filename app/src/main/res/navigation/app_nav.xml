@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="org.telnyx.androidclient.ui.home.LoginScreen"
+        android:label="LoginScreen" >
+
+    </fragment>
+
+    <action
+        android:id="@+id/action_loginScreen_to_homeFragment"
+        app:popUpTo="@id/loginScreen"
+        app:popUpToInclusive="true"
+        app:destination="@id/homeFragment" />
+
+    <action
+        android:id="@+id/action_homeFragment_to_loginScreen"
+        app:popUpTo="@id/homeFragment"
+        app:popUpToInclusive="true"
+        app:destination="@id/loginScreen" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.telnyx.androidclient.ui.home.HomeFragment"
+        android:label="HomeFragment" />
+</navigation>
